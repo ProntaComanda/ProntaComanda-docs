@@ -1,7 +1,7 @@
 <div align="center" id="inicio">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="app/wwwroot/img/logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="app/wwwroot/img/logo.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./docs/logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./docs/logo-light.svg">
     <img alt="Logo ProntaComanda" src="" width="550">
   </picture>
   
