@@ -75,12 +75,13 @@ Para a criação da interface e da estrutura da aplicação, estão sendo empreg
 O back-end do sistema será implementado em C#, com o banco de dados MongoDB. O código-fonte é editado no Visual Studio e gerenciado por meio do Git, garantindo controle das versões e organização durante todo o processo de desenvolvimento.
 
 <h3 align="center">
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" alt="Visual Studio" align="center" width="35"></a> &nbsp;&nbsp;
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" align="center" width="35"></a> &nbsp;&nbsp;
   <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" align="center" width="35"></a> &nbsp;&nbsp;
   <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS" align="center" width="35"></a> &nbsp;&nbsp;
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" align="center" width="35"></a> &nbsp;&nbsp;
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="tailwind" align="center" width="35"></a> &nbsp;&nbsp;
   <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" align="center" width="35"></a> &nbsp;&nbsp;
-  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" align="center" width="35"></a> &nbsp;&nbsp;
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="nodejs" align="center" width="35"></a> &nbsp;&nbsp;
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" align="center" width="35"></a>
   <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" align="center" width="35"></a> &nbsp;&nbsp;
   <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" align="center" width="35"></a> &nbsp;&nbsp;
   <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" align="center" width="35"></a>
@@ -266,7 +267,7 @@ O ProntaComanda entrega ao pequeno estabelecimento gastronômico uma forma **sim
 
 # 5. Estudo de viabilidade
 ### Viabilidade técnica: 
-O sistema é tecnicamente viável, pois será desenvolvido com tecnologias robustas e consolidadas no mercado, como HTML, CSS, JavaScript e C#, utilizando o padrão MVC para garantir uma manutenção facilitada e escalabilidade. A integração com o banco de dados MongoDB permite um gerenciamento de dados seguro e performático. O uso de ambientes de desenvolvimento como o Visual Studio, aliado ao Git para versionamento, dá suporte ao trabalho em equipe.
+O sistema é tecnicamente viável, pois é desenvolvido com tecnologias modernas, robustas e consolidadas no mercado. O front-end utiliza React e Tailwind CSS para uma interface ágil e responsiva, enquanto o back-end é estruturado em Node.js com Express, garantindo alto desempenho, facilidade de manutenção e escalabilidade. A comunicação em tempo real entre salão e cozinha é viabilizada via Socket.io (WebSockets). A persistência de dados utiliza o MongoDB com Mongoose, proporcionando um gerenciamento de dados flexível, seguro e performático. O uso do VS Code, aliado ao Git e GitHub para versionamento, garante o suporte ideal ao trabalho colaborativo da equipe.
 
 ### Viabilidade financeira: 
 O projeto demonstra alta viabilidade financeira, visto que se baseia na utilização de ferramentas de código aberto (open-source), eliminando custos elevados com licenças de software. O investimento inicial é reduzido, concentrando-se principalmente na hospedagem e manutenção básica. Ao aproveitar a infraestrutura acadêmica e tecnologias gratuitas, o ProntaComanda se posiciona como uma solução de baixo custo operacional e alta sustentabilidade econômica para micro e pequenos estabelecimentos.
@@ -282,13 +283,29 @@ O sistema é operacionalmente viável, priorizando uma interface limpa e intuiti
 # 6. Design
 ### Paleta de cores:
 
-| Nome             | Hexadecimal | Cor |
-|------------------|:-----------:|:---:|
-| Space Indigo      | #292B3B     | ![](https://img.shields.io/badge/-%231F1F1F?style=for-the-badge&color=292B3B) |
-| Platinum          | #EDF2F4     | ![](https://img.shields.io/badge/-%23FFFFFF?style=for-the-badge&color=EDF2F4) |
-| Strawberry Red    | #EF233C     | ![](https://img.shields.io/badge/-%23EC91A3?style=for-the-badge&color=EF233C) |
-| Flag Red          | #D90429     | ![](https://img.shields.io/badge/-%23000000?style=for-the-badge&color=D90429) |
-| Grey              | #A6A9AE     | ![](https://img.shields.io/badge/-%23797979?style=for-the-badge&color=A6A9AE) |
+### Paleta de Cores
+
+#### Modo Light
+| Nome | Hexadecimal | Cor |
+|---|:---:|:---:|
+| Black | `#000000` | ![](https://img.shields.io/badge/-%23FFFFFF?style=for-the-badge&color=000000) |
+| Dark Graphite | `#161616` | ![](https://img.shields.io/badge/-%23FFFFFF?style=for-the-badge&color=161616) |
+| Off Black | `#1A1A1A` | ![](https://img.shields.io/badge/-%23FFFFFF?style=for-the-badge&color=1A1A1A) |
+| White | `#FFFFFF` | ![](https://img.shields.io/badge/-%23000000?style=for-the-badge&color=FFFFFF) |
+| Orange | `#EE4400` | ![](https://img.shields.io/badge/-%23FFFFFF?style=for-the-badge&color=EE4400) |
+| Red | `#D00000` | ![](https://img.shields.io/badge/-%23FFFFFF?style=for-the-badge&color=D00000) |
+
+---
+
+#### Modo Dark
+| Nome | Hexadecimal | Cor |
+|---|:---:|:---:|
+| White | `#FFFFFF` | ![](https://img.shields.io/badge/-%23000000?style=for-the-badge&color=FFFFFF) |
+| Soft White | `#F4F4F4` | ![](https://img.shields.io/badge/-%23000000?style=for-the-badge&color=F4F4F4) |
+| Off White | `#EFEFEF` | ![](https://img.shields.io/badge/-%23000000?style=for-the-badge&color=EFEFEF) |
+| Black | `#000000` | ![](https://img.shields.io/badge/-%23FFFFFF?style=for-the-badge&color=000000) |
+| Orange | `#EE4400` | ![](https://img.shields.io/badge/-%23FFFFFF?style=for-the-badge&color=EE4400) |
+| Red | `#D00000` | ![](https://img.shields.io/badge/-%23FFFFFF?style=for-the-badge&color=D00000) |
 
 ### Tipografia: 
 - [Archivo (Títulos) - Google Fonts](https://fonts.google.com/specimen/Archivo)
