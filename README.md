@@ -485,21 +485,35 @@ erDiagram
 [Voltar para o início](#inicio)
 
 # 10. Considerações finais
-A aplicação ProntaComanda foi concebida com o objetivo de modernizar e agilizar a gestão de atendimento em estabelecimentos gastronômicos, oferecendo uma solução robusta para o controle de mesas e cardápios. Ao utilizar tecnologias como C# e o banco de dados NoSQL MongoDB, o projeto evita as limitações de sistemas estáticos, permitindo o armazenamento dinâmico de dados e uma estrutura flexível para a expansão de funcionalidades.
 
-Durante o desenvolvimento, o foco principal está na implementação da lógica de negócios e na persistência de dados orientada a documentos, o que traz desafios técnicos enriquecedores, especialmente na modelagem de objetos e na integração entre o back-end e o banco de dados. Embora o escopo inicial se concentre nas funcionalidades vitais de operação (mesas e cardápio), o sistema foi projetado sob o padrão MVC, garantindo que futuras atualizações, como módulos de relatórios avançados ou integração com sistemas de pagamento, possam ser implementadas com facilidade.
+A aplicação **ProntaComanda** foi concebida com o objetivo de modernizar e agilizar a gestão de atendimento em estabelecimentos gastronômicos, oferecendo uma solução robusta e integrada para o controlo de mesas, cardápios e esteira de preparação em tempo real (KDS). Ao utilizar uma arquitetura desacoplada com **React** e **Tailwind CSS** no front-end, aliada a **Node.js** e **Express** no back-end com comunicação via **Socket.io**, o projeto elimina as limitações de sistemas tradicionais baseados em papel ou atualizações manuais de página, permitindo o fluxo de dados instantâneo entre o salão e a cozinha.
 
-Em suma, o ProntaComanda busca demonstrar como a tecnologia pode eliminar falhas de comunicação e otimizar a eficiência operacional no setor de Food Service. O projeto não apenas propõe uma ferramenta funcional para o mercado, mas também consolida o aprendizado em arquiteturas modernas de software e bancos de dados não relacionais.
+A adoção do banco de dados NoSQL **MongoDB** (com Mongoose) viabilizou uma persistência de dados orientada a documentos altamente performática e flexível. Isso permitiu tratar adequadamente estruturas complexas do setor de *Food Service*, tais como itens do cardápio com categorias personalizadas, histórico de comandas e auditoria de estornos. O desenvolvimento desse ecossistema proporcionou desafios práticos enriquecedores em engenharia de software, englobando desde o controlo de acesso baseado em funções (RBAC) e segurança de autenticação até a sincronização de eventos em tempo real.
+
+Em suma, o ProntaComanda cumpre o seu propósito ao eliminar falhas de comunicação, reduzir o tempo de espera dos clientes e otimizar a eficiência operacional no setor gastronómico. O projeto não apenas entrega uma ferramenta funcional e escalável para o mercado, mas também consolida o aprendizado prático da equipa no desenvolvimento de aplicações web modernas, arquitetura de microserviços/APIs RESTful e integração com bancos de dados não relacionais.
 
 [Voltar para o início](#inicio)
 
+---
+
 # Referências bibliográficas
-ATLASSIAN. Trello. 2026. Disponível em: [https://trello.com/](https://trello.com/). 
 
-FIGMA, Inc. Figma: the collaborative interface design tool. 2026. Disponível em: [https://www.figma.com/](https://www.figma.com/).
+EXPRESS. Express - Framework web rápido, flexível e minimalista para Node.js. 2026. Disponível em: <https://expressjs.com/>. Acesso em: 28 set. 2026.
 
-MIND THE GRAPH. O que é um estudo de viabilidade em pesquisa? 2023. Disponível em: [https://mindthegraph.com/blog/pt/o-que-e-um-estudo-de-viabilidade-em-pesquisa/](https://mindthegraph.com/blog/pt/o-que-e-um-estudo-de-viabilidade-em-pesquisa/).
+FIGMA, Inc. Figma: the collaborative interface design tool. 2026. Disponível em: <https://www.figma.com/>. Acesso em: 28 set. 2026.
 
-BOOTSTRAP. Bootstrap · The most popular HTML, CSS, and JS library in the world. 2026. Disponível em: [https://getbootstrap.com/](https://getbootstrap.com/). 
+MIND THE GRAPH. O que é um estudo de viabilidade em pesquisa? 2023. Disponível em: <https://mindthegraph.com/blog/pt/o-que-e-um-estudo-de-viabilidade-em-pesquisa/>. Acesso em: 28 set. 2026.
+
+MONGODB, Inc. MongoDB: The Application Data Platform. 2026. Disponível em: <https://www.mongodb.com/>. Acesso em: 28 set. 2026.
+
+NODE.JS FOUNDATION. Node.js v20 LTS Documentation. 2026. Disponível em: <https://nodejs.org/>. Acesso em: 28 set. 2026.
+
+REACT. React – Uma biblioteca JavaScript para criar interfaces de usuário. 2026. Disponível em: <https://react.dev/>. Acesso em: 28 set. 2026.
+
+SOCKET.IO. Socket.IO: Bidirectional and low-latency communication for every platform. 2026. Disponível em: <https://socket.io/>. Acesso em: 28 set. 2026.
+
+TAILWIND LABS INC. Tailwind CSS - Rapidly build modern websites without ever leaving your HTML. 2026. Disponível em: <https://tailwindcss.com/>. Acesso em: 28 set. 2026.
+
+TRELLO. Trello: Organize anything with anyone, anywhere. 2026. Disponível em: <https://trello.com/>. Acesso em: 28 set. 2026.
 
 [Voltar para o início](#inicio)
