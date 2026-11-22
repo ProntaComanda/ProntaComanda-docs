@@ -22,8 +22,6 @@
   <a href="https://www.linkedin.com/in/eduardo-petarnella-gabri-18986b353/">Eduardo Petarnella Gabri</a>.
 </h3>
 
-> **Última atualização:** 21 de novembro de 2026. Este documento acompanha o estado do repositório da aplicação ([ProntaComanda](https://github.com/BrunoOller/ProntaComanda)). Onde o sistema construído difere da especificação original, a diferença está registrada na seção [3.4](#34-alterações-de-escopo-em-relação-à-especificação-original), e as pendências conhecidas estão na seção [8.6](#86-situação-atual-do-projeto).
-
 <details><summary><h1>Sumário</h1></summary>
 
   - [1. Resumo da aplicação web](#1-resumo-da-aplicação-web)
