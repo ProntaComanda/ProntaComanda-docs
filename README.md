@@ -532,11 +532,6 @@ O protótipo serviu de base para a paleta, a tipografia e o layout das telas (os
   <img alt="Figura 2 - Protótipo da página principal Home" src=".github/DesktopHome.svg" width="550">
 </div>
 
-- ### Figura 3 - Protótipo da tela de perfil do usuário:
-<div align="center">
-  <img alt="Figura 3 - Protótipo da tela de perfil do usuário" src=".github/DesktopPerfil.svg" width="550">
-</div>
-
 [Voltar para o início](#inicio)
 
 # 8. Aplicação
